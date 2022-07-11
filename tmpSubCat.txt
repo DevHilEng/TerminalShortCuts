@@ -1,0 +1,6 @@
+: APPLICATION
+(a)     Application	open -a safari https://www.heise.de
+(h)     help	open . /Users/henninghildebrandt/Kleinanzeigen/
+(x)     exit
+
+Enter your choice: 

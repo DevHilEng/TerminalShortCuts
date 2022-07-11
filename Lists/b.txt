@@ -1,0 +1,6 @@
+: FINANCE
+(b)     Budget
+(t)     Test
+(x)     exit
+
+Enter your choice: 
