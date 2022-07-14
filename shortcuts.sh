@@ -27,11 +27,11 @@ funcMenu
 while [ $varname != "x" ]
 do
     $(bash openSubCat.sh ${varname})
-    cat ${tempSubCat} | cut -f1 -d$'\t'
+    cat ${tempSubCat} | cut -f1,2 -d$'\t'
     read appName
     clear 
     #cat Lists/a.txt | grep '(a)' | cut -f2 -d$'\t'
-    openApp=$(cat Lists/$varname.txt | grep '('$appName')' | cut -f2 -d$'\t') 
+    openApp=$(cat Lists/$varname.txt | grep '('$appName')' | cut -f3-10 -d$'\t') 
     echo $openApp
     $openApp
     
